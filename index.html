@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xelvora: Slide Planets</title>
+<meta name="description" content="Juego de deslizamiento por quince planetas. Esquiva rocas, salta abismos y llega lo más lejos que puedas. Sin conexión, sin anuncios y sin cuentas.">
+<meta property="og:title" content="Xelvora: Slide Planets">
+<meta property="og:description" content="Deslízate por quince planetas. Sin frenos.">
+<meta property="og:image" content="img/icono.png">
+<meta property="og:type" content="website">
+<link rel="icon" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/icono-180.png">
+<link rel="stylesheet" href="css/estilo.css">
+<script src="js/idioma.js" defer></script>
+</head>
+<body>
+
+<header class="barra">
+  <div class="envoltorio">
+    <a class="marca" href="index.html">
+      <img src="img/icono.png" alt="Icono de Xelvora">
+      <span>XELVORA</span>
+    </a>
+    <nav class="menu">
+      <a href="index.html" aria-current="page" data-t="navJuego">El juego</a>
+      <a href="soporte.html" data-t="navSoporte">Soporte</a>
+      <a href="privacidad.html" data-t="navPriv">Privacidad</a>
+      <select id="selIdioma" class="idioma" aria-label="Idioma">
+        <option value="es">Español</option>
+        <option value="en">English</option>
+        <option value="fr">Français</option>
+        <option value="it">Italiano</option>
+        <option value="ja">日本語</option>
+        <option value="zh">简体中文</option>
+      </select>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="portada envoltorio">
+    <div>
+      <img class="icono" src="img/icono.png" alt="Icono de Xelvora">
+      <h1>Xelvora<br>Slide Planets</h1>
+      <p class="lema" data-t="lema">Deslízate por quince planetas. Sin frenos.</p>
+      <div class="acciones">
+        <!-- Cuando la app esté publicada, cambia # por el enlace de la App Store -->
+        <a class="boton" href="#" data-t="btnStore">Descargar en App Store</a>
+        <a class="boton fantasma" href="#capturas" data-t="btnVer">Ver capturas</a>
+      </div>
+      <p class="lema" style="font-size:14px;margin-top:16px" data-t="prox">Próximamente en App Store</p>
+    </div>
+    <figure>
+      <img src="img/juego-1.jpg" alt="Partida de Xelvora en un mundo de hielo" width="560" height="1217">
+    </figure>
+  </section>
+
+  <section class="envoltorio">
+    <h2 data-t="quéTit">Un descenso sin frenos</h2>
+    <p class="bajada" data-t="quéTxt">Bajas por la cresta de un planeta, esquivas lo que se cruza y saltas los abismos que parten el camino. Cuanto más lejos llegas, más rápido va todo.</p>
+    <div class="rejilla">
+      <div class="tarjeta">
+        <div class="num">15</div>
+        <h3 data-t="c1t">mundos</h3>
+        <p data-t="c1p">Hielo, lava con volcanes, cañones de cristal, tormentas y la orilla del sol. Cruza el último portal y ganas la partida.</p>
+      </div>
+      <div class="tarjeta">
+        <div class="num">11</div>
+        <h3 data-t="c2t">personajes</h3>
+        <p data-t="c2p">Un alienígena gris, un fantasma, un oso, un zorro, un caballero, un pulpo, un samurái, una piloto, un pingüino y más.</p>
+      </div>
+      <div class="tarjeta">
+        <div class="num">6</div>
+        <h3 data-t="c3t">deslizadores</h3>
+        <p data-t="c3p">Del disco de repulsión a una banana que escupe fuego, un avión de hélice o un cohete de dos motores.</p>
+      </div>
+      <div class="tarjeta">
+        <div class="num">0</div>
+        <h3 data-t="c4t">anuncios</h3>
+        <p data-t="c4p">Ni anuncios, ni cuentas, ni registro. Se juega entero sin conexión y nada de lo que haces sale de tu teléfono.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="envoltorio">
+    <h2 data-t="comoTit">Cómo se juega</h2>
+    <div class="rejilla">
+      <div class="tarjeta"><p data-t="como1">Arrastra el dedo para moverte de lado a lado.</p></div>
+      <div class="tarjeta"><p data-t="como2">Toca la pantalla para saltar.</p></div>
+      <div class="tarjeta"><p data-t="como3">Apoya dos dedos para impulsarte: el deslizador enciende el fuego.</p></div>
+      <div class="tarjeta"><p data-t="como4">Pasa por las rampas: te lanzan al otro lado de los abismos.</p></div>
+    </div>
+  </section>
+
+  <section class="envoltorio" id="capturas">
+    <h2 data-t="capTit">Así se ve</h2>
+    <div class="galeria">
+      <img src="img/juego-2.jpg" alt="Rampa de lanzamiento antes de un abismo" width="560" height="1217" loading="lazy">
+      <img src="img/juego-4.jpg" alt="Cristales en mitad del camino" width="560" height="1217" loading="lazy">
+      <img src="img/juego-3.jpg" alt="Tienda de personajes" width="560" height="1217" loading="lazy">
+      <img src="img/ipad.jpg" alt="Xelvora en iPad" width="1000" height="1333" loading="lazy">
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="envoltorio">
+    <a href="soporte.html" data-t="navSoporte">Soporte</a>
+    <a href="privacidad.html" data-t="navPriv">Privacidad</a>
+    <a href="mailto:soporte.xelvora@gmail.com">soporte.xelvora@gmail.com</a>
+    <span class="derechos">© 2026 Jesús Martínez</span>
+  </div>
+</footer>
+
+</body>
+</html>
